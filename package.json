@@ -1,0 +1,21 @@
+{
+  "name": "raissa-s-mcp",
+  "version": "1.0.0",
+  "description": "A minimal Model Context Protocol (MCP) server/client in TypeScript",
+  "author": "Raissa Hohenester",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.52.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.3"
+  }
+}
